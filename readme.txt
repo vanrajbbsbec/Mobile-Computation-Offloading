@@ -4,7 +4,7 @@ Table of Contents
 1. Directory structure of the CloudSim Toolkit
 2. Software requirements: Java version 1.6 or newer 
 3. Installation and running the CloudSim Toolkit
-4. Running the CloudSim examples 6
+4. Running the CloudSim example 6
 5. Learning CloudSim
 6. Compiling CloudSim: using Ant
 
@@ -47,7 +47,7 @@ provided to compile and to run CloudSim applications:
 4. Running the CloudSim examples
 --------------------------------
 
-Please read how to run the CloudSim examples in examples.txt
+The CloudSim example 6 implements the overall cloud environment and the virtual mobile environment to imitate as a mobile cloud. This includes initiating instances of battery class, which represents a SMD battery instance, the battery class has been implemented as a singleton pattern. The example 6 also uses cloudlet priority scheduling class which allows user priority cloudlets to be executed till certain battery threshold value, after the threshold is achieved the user priority is ignored and cloudlets are queued in Execution queue based on file size requirements.
 
 
 5. Learning CloudSim
