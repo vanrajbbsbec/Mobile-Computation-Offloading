@@ -47,7 +47,11 @@ provided to compile and to run CloudSim applications:
 4. Running the CloudSim examples
 --------------------------------
 
-The CloudSim example 6 implements the overall cloud environment and the virtual mobile environment to imitate as a mobile cloud. This includes initiating instances of battery class, which represents a SMD battery instance, the battery class has been implemented as a singleton pattern. The example 6 also uses cloudlet priority scheduling class which allows user priority cloudlets to be executed till certain battery threshold value, after the threshold is achieved the user priority is ignored and cloudlets are queued in Execution queue based on file size requirements.
+The CloudSim example 6 implements the overall cloud environment and the virtual mobile environment to imitate as a mobile cloud. This
+includes initiating instances of battery class, which represents a SMD battery instance, the battery class has been implemented as a
+singleton pattern. The example 6 also uses cloudlet priority scheduling class which allows user priority cloudlets to be executed till
+certain battery threshold value, after the threshold is achieved the user priority is ignored and cloudlets are queued in Execution
+queue based on file size requirements.
 
 
 5. Learning CloudSim
